@@ -53,9 +53,24 @@ a{
 /*HERO-section*/
 
 .deal-section{
+    background-image: url("https://picsum.photos/800/500?grayscale");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     background-color:var(--basic-grey); 
     padding: 1rem;
+    position: relative;
+    height: 50vh;
+    min-height: 200px;
 }
+
+
+main{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 article{
     margin: 1rem 0;
@@ -77,4 +92,13 @@ article{
     color: #fff; 
     padding: 1rem; 
     border: none; 
+}
+
+form{
+
+input{
+    display: block;
+    padding: 1rem;
+    margin: 0.4rem 0;
+}
 }
