@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+ 
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+ 
+#global-header
+{
+    background-image: url("https://fastly.picsum.photos/id/38/1280/960.jpg?hmac=HBrgyJHQOGVicaWoXgvdSfTakkAyv4BxAt4rF0DhWkU");
+    background-size: cover;
+    height: 300px;
+ 
+    nav
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 2px solid #838383;
+        background-color: #fff;
+ 
+        padding: 0.2rem;
+        margin: 0.5rem;
+ 
+        ul
+        {
+            padding: 1rem;
+            li
+            {
+                list-style: none;
+                padding: 3px;
+            }
+        }
+    }
+}
+ 
+#mainlogo
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ 
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+ 
+main
+{
+    padding: 1rem;
+   
+    article
+    {
+        border: 1px solid #000;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+}
+ 
+aside
+{
+    padding: 1rem;
+}
+ 
+footer
+{
+    background-color: #3e3e3e;
+    color: #ffffff;
+    padding: 1rem;
+   
+    label
+    {
+        display: block;
+    }
+ 
+    input, textarea
+    {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+ 

@@ -1,0 +1,32 @@
+#page-container{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    grid-template-areas: 
+    "header header header"
+    "main main aside" 
+    "footer footer footer"
+}
+#global-header{
+    grid-area: header;
+}
+#sideområde{
+    grid-area: aside;
+}
+
+main{
+    grid-area: main;
+}
+
+#kontakt{
+    grid-area: footer;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
